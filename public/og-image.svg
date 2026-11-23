@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="200" r="400" fill="url(#glow)"/>
+
+  <!-- Grid lines -->
+  <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <path d="M200 0 V630 M400 0 V630 M600 0 V630 M800 0 V630 M1000 0 V630" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Badge -->
+  <rect x="100" y="100" width="460" height="42" rx="21" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <text x="130" y="127" fill="#c7d2fe" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="600" letter-spacing="1.5">AI ENGINEER &amp; TECHNOLOGY TRAINER</text>
+
+  <!-- Title -->
+  <text x="100" y="240" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="68" font-weight="800">G. NAGESWARA RAO</text>
+  <text x="100" y="320" fill="url(#textGrad)" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="700">Turning Complex Technologies Into Practical Skills.</text>
+
+  <!-- Subtitle -->
+  <text x="100" y="380" fill="#94a3b8" font-family="sans-serif" font-size="22">BRAIN O VISION – EdTech • Generative AI &amp; Agentic Workflows • Python</text>
+
+  <!-- Highlights -->
+  <rect x="100" y="440" width="300" height="80" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="130" y="475" fill="#22d3ee" font-family="sans-serif" font-size="28" font-weight="700">10 Colleges</text>
+  <text x="130" y="500" fill="#94a3b8" font-family="sans-serif" font-size="14">Independent Workshop Delivery</text>
+
+  <rect x="430" y="440" width="300" height="80" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="460" y="475" fill="#a855f7" font-family="sans-serif" font-size="28" font-weight="700">GenAI &amp; Agentic</text>
+  <text x="460" y="500" fill="#94a3b8" font-family="sans-serif" font-size="14">LangChain, CrewAI &amp; Models</text>
+</svg>
+
